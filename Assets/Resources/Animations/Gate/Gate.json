@@ -1,0 +1,100 @@
+{
+"skeleton": { "hash": "CTPOBrapz9HByQxDpvwElJ8SpEc", "spine": "3.6.52", "width": 562, "height": 690, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "root" }
+],
+"slots": [
+	{ "name": "clipping", "bone": "root", "attachment": "clipping" },
+	{ "name": "Images/Gate-Background", "bone": "root", "attachment": "Images/Gate-Background" },
+	{ "name": "Images/Gate-Left", "bone": "bone", "attachment": "Images/Gate-Left" },
+	{ "name": "Images/Gate-Right", "bone": "bone2", "attachment": "Images/Gate-Right" },
+	{ "name": "Images/Gate-Shadow", "bone": "root", "attachment": "Images/Gate-Shadow" },
+	{ "name": "Images/Gate-Overall2", "bone": "root", "attachment": "Images/Gate-Overall2" }
+],
+"skins": {
+	"default": {
+		"Images/Gate-Background": {
+			"Images/Gate-Background": { "y": -51.01, "width": 340, "height": 583 }
+		},
+		"Images/Gate-Left": {
+			"Images/Gate-Left": { "x": -85.75, "y": -48.63, "width": 165, "height": 585 }
+		},
+		"Images/Gate-Overall2": {
+			"Images/Gate-Overall2": { "width": 562, "height": 690 }
+		},
+		"Images/Gate-Right": {
+			"Images/Gate-Right": { "x": 87.19, "y": -49.32, "width": 165, "height": 585 }
+		},
+		"Images/Gate-Shadow": {
+			"Images/Gate-Shadow": { "x": -2.83, "y": -48.18, "width": 342, "height": 579 }
+		},
+		"clipping": {
+			"clipping": {
+				"type": "clipping",
+				"end": "clipping",
+				"vertexCount": 57,
+				"vertices": [ -246.65, -121.89, -245.01, 21.95, -273.01, 23.05, -281.24, 46.66, -281.24, 74.65, -268.61, 94.42, -245.56, 93.32, -244.46, 155.91, -232.93, 191.98, -199.44, 247.43, -159.91, 282.02, -115.44, 307.82, -122.58, 316.06, -115.44, 326.49, -99.52, 334.72, -64.39, 341.31, -25.96, 345.15, 9.73, 345.7, 61.34, 341.31, 97.02, 333.62, 118.43, 322.64, 122.27, 313.31, 129.41, 305.08, 181.02, 273.78, 210.66, 243.04, 233.72, 203.51, 246.9, 172.22, 252.39, 149.16, 251.84, 93.71, 272.15, 92.61, 280.39, 76.69, 282.03, 41.56, 272.7, 19.6, 253.49, 19.05, 252.94, -122.62, 273.25, -123.17, 278.74, -135.25, 282.03, -157.08, 279.84, -183.43, 272.15, -196.61, 254.03, -197.16, 254.03, -268.53, 274.35, -270.18, 279.84, -283.9, 282.03, -315.19, 275.45, -338.25, 267.21, -344.29, -274.65, -343.19, -283.44, -315.19, -280.14, -283.35, -270.26, -264.14, -246.65, -267.43, -247.75, -197.71, -272.46, -199.36, -281.79, -177.4, -284.53, -148.3, -272.46, -121.4 ],
+				"color": "ce3a3aff"
+			}
+		}
+	}
+},
+"events": {
+	"isClosed": {},
+	"isOpen": {}
+},
+"animations": {
+	"Close": {
+		"bones": {
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -165, "y": 0 },
+					{ "time": 1.1667, "x": 0, "y": 0 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 165, "y": 0 },
+					{ "time": 1.1667, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.1667, "name": "isClosed" }
+		]
+	},
+	"Open": {
+		"bones": {
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.1667, "x": -165, "y": 0 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.1667, "x": 165, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.1667, "name": "isOpen" }
+		]
+	}
+}
+}

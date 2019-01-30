@@ -1,0 +1,14 @@
+[ 
+{ "id": "1", "name": "key_obtained", "message": "Enhorabuena, has conseguido una llave!"}, 
+{ "id": "2", "name": "key_used", "message": "Has usado una llave"} 
+{ "id": "2", "name": "gate_unlocked", "message": "Has desbloqueado la puerta!"} 
+{ "id": "2", "name": "gate_isLock", "message": "Esta puerta está bloqueada"} 
+{ "id": "2", "name": "ankh_notEnough", "message": "No tienes suficientes Ankh"} 
+{ "id": "2", "name": "item_picked", "message": "Has obtenido"} 
+{ "id": "2", "name": "killed_tail", "message": "Has roto su cola, ya no lanzará veneno."} 
+{ "id": "2", "name": "killed_pinzas", "message": "¡Ya queda menos! No tiene pinzas ¡Aprovecha!"} 
+{ "id": "2", "name": "killed_boss", "message": "¡Enhorabuena! Has matado al escorpión"} 
+{ "id": "2", "name": "guard_stance", "message": "Cuidado! El escorpión está protegiéndose."} 
+]
+
+

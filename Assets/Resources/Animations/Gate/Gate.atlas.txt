@@ -1,0 +1,47 @@
+
+Gate.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Images/Gate-Background
+  rotate: false
+  xy: 566, 276
+  size: 340, 583
+  orig: 340, 583
+  offset: 0, 0
+  index: -1
+Images/Gate-Left
+  rotate: true
+  xy: 2, 2
+  size: 165, 585
+  orig: 165, 585
+  offset: 0, 0
+  index: -1
+Images/Gate-Overall2
+  rotate: false
+  xy: 2, 169
+  size: 562, 690
+  orig: 562, 690
+  offset: 0, 0
+  index: -1
+
+Gate2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Images/Gate-Right
+  rotate: true
+  xy: 346, 416
+  size: 165, 585
+  orig: 165, 585
+  offset: 0, 0
+  index: -1
+Images/Gate-Shadow
+  rotate: false
+  xy: 2, 2
+  size: 342, 579
+  orig: 342, 579
+  offset: 0, 0
+  index: -1

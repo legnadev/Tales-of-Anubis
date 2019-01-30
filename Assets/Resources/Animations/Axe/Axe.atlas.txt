@@ -1,0 +1,20 @@
+
+Axe.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Images/Axe_Chains
+  rotate: true
+  xy: 2, 275
+  size: 60, 969
+  orig: 60, 969
+  offset: 0, 0
+  index: -1
+Images/Axe_Edge
+  rotate: false
+  xy: 2, 2
+  size: 510, 271
+  orig: 510, 271
+  offset: 0, 0
+  index: -1

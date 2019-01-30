@@ -1,0 +1,75 @@
+
+Tortugo.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Images/Boca-Feliz
+  rotate: false
+  xy: 2, 2
+  size: 227, 70
+  orig: 227, 70
+  offset: 0, 0
+  index: -1
+Images/Boca_Confused
+  rotate: true
+  xy: 777, 726
+  size: 286, 175
+  orig: 286, 175
+  offset: 0, 0
+  index: -1
+Images/Cuerpo_Confuse
+  rotate: false
+  xy: 2, 287
+  size: 773, 725
+  orig: 773, 725
+  offset: 0, 0
+  index: -1
+Images/Ojos-Abierto
+  rotate: true
+  xy: 777, 461
+  size: 263, 160
+  orig: 263, 160
+  offset: 0, 0
+  index: -1
+Images/Ojos-Cerrados
+  rotate: true
+  xy: 777, 196
+  size: 263, 160
+  orig: 263, 160
+  offset: 0, 0
+  index: -1
+Images/Ojos-SemiCeerrados
+  rotate: false
+  xy: 660, 34
+  size: 263, 160
+  orig: 263, 160
+  offset: 0, 0
+  index: -1
+Images/Ojos_Confused
+  rotate: false
+  xy: 2, 74
+  size: 350, 211
+  orig: 350, 211
+  offset: 0, 0
+  index: -1
+Images/Star
+  rotate: false
+  xy: 354, 129
+  size: 304, 156
+  orig: 304, 156
+  offset: 0, 0
+  index: -1
+
+Tortugo2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Images/Cuerpo
+  rotate: false
+  xy: 2, 2
+  size: 700, 655
+  orig: 700, 655
+  offset: 0, 0
+  index: -1

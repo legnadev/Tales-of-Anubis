@@ -1,0 +1,102 @@
+{
+"skeleton": { "hash": "jsH9ZCqktzaMn7upWktQavkfeng", "spine": "3.6.52", "width": 182.41, "height": 341.05, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Aguijon", "parent": "root", "length": 58.7, "rotation": -133.85, "x": 8.37, "y": 55.04 },
+	{ "name": "Ala_D_D", "parent": "root", "length": 79.56, "rotation": 56.42, "x": 1.85, "y": 235.12 },
+	{ "name": "Ala_D_I", "parent": "root", "length": 83.79, "rotation": 125.8, "x": -3.33, "y": 234.56 },
+	{ "name": "Ala_T_D", "parent": "root", "length": 71.47, "rotation": 21.89, "x": 6.69, "y": 243.31 },
+	{ "name": "Ala_T_I", "parent": "root", "length": 73.83, "rotation": 152.95, "x": -9.46, "y": 243.87 }
+],
+"slots": [
+	{ "name": "Images/Aguijon", "bone": "Aguijon", "attachment": "Images/Aguijon" },
+	{ "name": "Images/Aguijon_Brillo", "bone": "Aguijon", "attachment": "Images/Aguijon_Brillo" },
+	{ "name": "Images/Cola", "bone": "root", "attachment": "Images/Cola" },
+	{ "name": "Images/Caparazon", "bone": "root", "attachment": "Images/Caparazon" },
+	{ "name": "Images/Cabeza", "bone": "root", "attachment": "Images/Cabeza" },
+	{ "name": "Images/Ojos", "bone": "root", "attachment": "Images/Ojos" },
+	{ "name": "Images/Ojos_Brillo", "bone": "root", "attachment": "Ojos" },
+	{ "name": "Images/Ala_T_D", "bone": "Ala_T_D", "attachment": "Images/Ala_T_D" },
+	{ "name": "Images/Ala_T_I", "bone": "Ala_T_I", "attachment": "Images/Ala_T_I" },
+	{ "name": "Images/Ala_D_D", "bone": "Ala_D_D", "attachment": "Images/Ala_D_D" },
+	{ "name": "Images/Ala_D_I", "bone": "Ala_D_I", "attachment": "Images/Ala_D_I" }
+],
+"skins": {
+	"default": {
+		"Images/Aguijon": {
+			"Images/Aguijon": { "x": 14.96, "y": 0.83, "rotation": 133.85, "width": 66, "height": 68 }
+		},
+		"Images/Aguijon_Brillo": {
+			"Images/Aguijon_Brillo": { "x": 53.15, "y": -0.8, "rotation": 133.85, "width": 101, "height": 101 }
+		},
+		"Images/Ala_D_D": {
+			"Images/Ala_D_D": { "x": 40.9, "y": -0.04, "rotation": -56.42, "width": 60, "height": 77 }
+		},
+		"Images/Ala_D_I": {
+			"Images/Ala_D_I": { "x": 42.83, "y": -0.02, "rotation": -125.8, "width": 60, "height": 77 }
+		},
+		"Images/Ala_T_D": {
+			"Images/Ala_T_D": { "x": 39.5, "y": -0.67, "rotation": -40.89, "width": 78, "height": 59 }
+		},
+		"Images/Ala_T_I": {
+			"Images/Ala_T_I": { "x": 40.3, "y": 4.46, "rotation": -138.98, "width": 78, "height": 59 }
+		},
+		"Images/Cabeza": {
+			"Images/Cabeza": { "y": 140.06, "width": 106, "height": 111 }
+		},
+		"Images/Caparazon": {
+			"Images/Caparazon": { "x": 6.3, "y": 184.16, "width": 163, "height": 153 }
+		},
+		"Images/Cola": {
+			"Images/Cola": { "x": 13.64, "y": 102.9, "width": 118, "height": 98 }
+		},
+		"Images/Ojos": {
+			"Images/Ojos": { "y": 123.75, "width": 78, "height": 33 }
+		}
+	},
+	"Aggro": {
+		"Images/Ojos_Brillo": {
+			"Ojos": { "name": "Images/Ojo_brillo_azul", "y": 123.19, "width": 146, "height": 103 }
+		}
+	},
+	"Normal": {
+		"Images/Ojos_Brillo": {
+			"Ojos": { "name": "Images/Ojos_Brillo", "y": 123.75, "width": 146, "height": 103 }
+		}
+	}
+},
+"animations": {
+	"Fly": {
+		"bones": {
+			"Ala_D_I": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1, "angle": -301.37 },
+					{ "time": 0.2, "angle": 0 }
+				]
+			},
+			"Ala_D_D": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1, "angle": -70.39 },
+					{ "time": 0.2, "angle": 0 }
+				]
+			},
+			"Ala_T_I": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1, "angle": -41.88 },
+					{ "time": 0.2, "angle": 0 }
+				]
+			},
+			"Ala_T_D": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1, "angle": 45.65 },
+					{ "time": 0.2, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

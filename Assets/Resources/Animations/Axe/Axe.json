@@ -1,0 +1,38 @@
+{
+"skeleton": { "hash": "ChXwaWj8L2cnEmCyusjQAOE7kJ4", "spine": "3.6.52", "width": 510, "height": 1161.1, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone2", "parent": "root", "length": 1104.32, "rotation": -90, "x": -1.04, "y": 1106.95 },
+	{ "name": "Edge", "parent": "bone2", "length": 375, "rotation": 89.38, "x": 968.23, "y": -182.9 }
+],
+"slots": [
+	{ "name": "Images/Axe_Chains", "bone": "bone2", "attachment": "Images/Axe_Chains" },
+	{ "name": "Images/Axe_Edge", "bone": "Edge", "attachment": "Images/Axe_Edge" }
+],
+"skins": {
+	"default": {
+		"Images/Axe_Chains": {
+			"Images/Axe_Chains": { "x": 426.08, "y": 3.25, "rotation": 90, "width": 60, "height": 969 }
+		},
+		"Images/Axe_Edge": {
+			"Images/Axe_Edge": { "x": 186.82, "y": 3.06, "rotation": 0.62, "width": 510, "height": 271 }
+		}
+	}
+},
+"animations": {
+	"Bouncing": {
+		"bones": {
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -70 },
+					{ "time": 0.6667, "angle": 0 },
+					{ "time": 1, "angle": 70 },
+					{ "time": 1.3333, "angle": 0 }
+				]
+			}
+		}
+	},
+	"Quiet": {}
+}
+}
